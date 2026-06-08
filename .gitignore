@@ -1,0 +1,54 @@
+# dependencies
+node_modules
+**/node_modules
+design_handoff_hidro_scan/*
+# Expo
+.expo/
+.expo/*
+dist/*
+web-build/
+*.apk
+*.aab
+expo-env.d.ts
+
+# Native
+android/
+ios/
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug / logs
+npm-debug.*
+*.log
+logs/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+*.pem
+
+# typescript
+*.tsbuildinfo
+
+# SQLite databases
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Editor
+.vscode/
+.idea/
+
+# Ferramentas locais
+.claude/
+.claude-flow/
+.ruflo/
